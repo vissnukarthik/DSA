@@ -1,4 +1,4 @@
-// Online C++ compiler to run C++ program online
+
 #include <bits/stdc++.h>
 using namespace std;
 void addEdge(vector<int>adj[],int u,int v){
@@ -26,7 +26,7 @@ void dfs(int node,vector<int> &vis,vector<int> adj[]){
 }
 
 int main() {
-    // Write C++ code here
+    
     int v = 5;
     vector<int> adj[v];
     addEdge(adj, 0, 1);
